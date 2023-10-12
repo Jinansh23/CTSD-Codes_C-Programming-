@@ -1,0 +1,11 @@
+#include <stdio.h>
+void add(int, int); // function declaration
+void main()
+{
+inta = 5, b = 6;
+add(a, b); // function call
+}
+void add(intx, inty) // function definition
+{
+printf("Addition is = %d", x + y);
+}
